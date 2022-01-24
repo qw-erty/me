@@ -13,13 +13,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhinav</title>
 
-    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./background.css">
-    <link rel="stylesheet" href="./skill.css"> -->
+    <link rel="stylesheet" href="./skill.css">
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
 
 </head>
@@ -35,7 +35,7 @@
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </div>
-<!-- 
+
     <ul class="circles">
         <li></li>
         <li></li>
@@ -48,7 +48,7 @@
         <li></li>
         <li></li>
     </ul>
- -->
+
 
 
     <div class="head">
