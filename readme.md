@@ -1,4 +1,6 @@
-#Code Along
+# Code Along
+
+### ***Step 1***
 
 ```
 
@@ -11,15 +13,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhinav</title>
 
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./background.css">
-    <link rel="stylesheet" href="./skill.css">
+    <link rel="stylesheet" href="./skill.css"> -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> -->
 
-    <script src="index.js"></script>
 
 </head>
 
@@ -34,7 +35,7 @@
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </div>
-
+<!-- 
     <ul class="circles">
         <li></li>
         <li></li>
@@ -47,7 +48,7 @@
         <li></li>
         <li></li>
     </ul>
-
+ -->
 
 
     <div class="head">
@@ -68,10 +69,7 @@
         <h1>About Me</h1>
 
         <p>
-            I am currently mentor for Web Development at IEEE DTU. I am professionally a full stack developer and
-            mastred various skills requied for Development
-            .I have completed my internship as a web developer at Feetwings and Seutus .
-            I like to play almost all the games but have chess and football as my favourite.
+           
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
