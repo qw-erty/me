@@ -2,6 +2,8 @@
 
 > ## Step 1
 
+>> #### HTML
+
 ```
     <div class="topnav">
         <a href="#head">Home</a>
@@ -12,8 +14,35 @@
     </div>
 
 ```
+>> #### CSS 
+
+```
+.topnav {
+  position: fixed;
+  font-size: 25px;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  z-index: 999;
+}
+
+.topnav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  padding: 20px;
+}
+
+.topnav a:hover {
+  background-color: #e8f3ff;
+  color: black;
+}
+
+```
 
 > ## Step 2
+>> #### HTML
 
 ```
     <div class="head" id="head">
@@ -24,8 +53,37 @@
         </div> 
     </div>
 ```
+>> #### CSS 
+
+```
+.head {
+  padding: 100px;
+  text-align: center;
+  background-image: url("./background.png");
+}
+
+.head img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+.head h1 {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.head p {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+```
 
 > ## Step 3
+>> #### HTML
 
 ```
     <div class="about" id="about">
@@ -44,8 +102,31 @@
     </div>
 
 ```
+>> #### CSS 
+
+```
+
+.about {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.about h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.about p {
+  padding: 30px;
+  font-weight: 200;
+}
+
+```
 
 > ## Step 4
+>> #### HTML
 
 ```
     <div class="projects" id="projects">
@@ -80,8 +161,59 @@
     </div>
 ```
 
+>> #### CSS 
+
+```
+
+.projects {
+  text-align: center;
+  padding: 50px;
+  padding-top: 0;
+}
+
+.projects h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.projects p {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  border-radius: 20px;
+  width: 350px;
+  background-color: rgb(128, 186, 240);
+  margin: 10px;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.flex-container > div h3 {
+  margin: 0;
+}
+
+.flex-container div button {
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  background: black;
+  color: white;
+  border: 0;
+  font-family: "Outfit", sans-serif;
+  border-radius: 5px;
+}
+```
 
 > ## Step 5
+>> #### HTML
 
 ```
     <div class="skills" id="skills">
@@ -114,8 +246,59 @@
     </div>
 
 ```
+>> #### CSS 
+
+```
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: white;
+  color: black;
+}
+
+.skills h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.skills ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(24, 120, 211);
+  border-radius: 50%;
+  margin: 20px;
+  transition: all ease 0.5s;
+  color: rgb(24, 120, 211);
+}
+
+.skills ul li p {
+  font-size: 30px;
+  padding: 0 20px;
+}
+
+.skills ul li:hover {
+  transform: scale(1.1);
+  /* transform: rotate(360deg); */
+}
+```
 
 > ## Step 6
+>> #### HTML
 
 ```
     <div class="contact" id="contact">
@@ -138,5 +321,45 @@
             </li>
         </ul>
     </div>
+
+```
+
+>> #### CSS 
+
+```
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  color: black;
+  padding-bottom: 80px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(128, 186, 240));
+}
+
+.contact h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.contact ul {
+  display: flex;
+  list-style: none;
+}
+
+.contact ul li {
+  margin: 20px;
+  transition: all 0.7s ease;
+}
+
+.contact img {
+  width: 50px;
+  height: 50px;
+}
+
+.contact ul li:hover {
+  transform: rotate(360deg);
+}
 
 ```
